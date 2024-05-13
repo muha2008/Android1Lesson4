@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_what"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/whatsapp"/>
+
+    <EditText
+        android:id="@+id/ed_number"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:hint="Введите номер телефона" />
+
+    <Button
+        android:id="@+id/btn_what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn_Google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Google" />
+
+    <Button
+        android:id="@+id/btn_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Youtube" />
+
+    <Button
+        android:id="@+id/btn_goto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Дальше" />
+</LinearLayout>
